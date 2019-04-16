@@ -10,4 +10,4 @@ Insertionsort is an algorithm which sorts a list of elements based on comparison
 - Best-Case: <a href="https://www.codecogs.com/eqnedit.php?latex=\Omega(n)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\Omega(n)" title="\Omega(n)" /></a>
 
 ### Program Space Complexity
-The Space Complexity is $O(1)$ because only a single additional memory space is required i.e. for temp variable.
+The Space Complexity is <a href="https://www.codecogs.com/eqnedit.php?latex=O(1)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?O(1)" title="O(1)" /></a> because only a single additional memory space is required i.e. for temp variable.
