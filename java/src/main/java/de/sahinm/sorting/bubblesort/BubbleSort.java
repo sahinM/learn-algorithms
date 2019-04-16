@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class BubbleSort {
 
-	private static final int N = 10;
+	private static final int N = 1000;
 	private static final int UPPER_BOUND = 100;
 
 	public static void main(String[] args) {
@@ -13,6 +13,7 @@ public class BubbleSort {
 		for (int i = 0; i < N; i++) {
 			unsortedNums[i] = new Random().nextInt(UPPER_BOUND) + 1;
 		}
+		System.out.println("Input: N = " + N);
 		System.out.println("Unsorted List: " + Arrays.toString(unsortedNums));
 		int ct = 0;
 		int n = N;
@@ -29,7 +30,6 @@ public class BubbleSort {
 			n = newN;
 		} while (n > 1);
 
-		System.out.println("Input: N = " + N);
 		System.out.println("Number of comparisons = " + ct);
 		System.out.println("Sorted: " + Arrays.toString(unsortedNums));
 
