@@ -1,7 +1,7 @@
-# Insertionsort Algorithm
+# Bubblesort Algorithm
 
 ## Description
-Insertionsort is an algorithm which sorts a list of elements based on comparisons. 
+Bubblesort is an algorithm which sorts a list of elements based on comparisons. 
 
 ## Complexity
 ### Program Runtime Complexity
